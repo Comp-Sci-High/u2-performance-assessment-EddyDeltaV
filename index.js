@@ -52,7 +52,7 @@ try {const response = await fetch(spotifyURL, opitons)
 }
 
   const response2 = await fetch(url, options);
-
+{
   const data2 = await response.json();
    console.log(data2); 
    return data2;
